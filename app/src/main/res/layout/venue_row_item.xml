@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:elevation="10dp"
+        card_view:cardCornerRadius="4dp">
+        <RelativeLayout
+            android:id="@+id/relativeLayoutForEachRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f22b08"
+            >
+
+    <TextView
+        android:id="@+id/visitorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dummyName"
+        android:textSize="@dimen/text_view_size"
+        android:textColor="@color/textViewColor"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/visitingTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dummyTimeInterval"
+        android:textSize="@dimen/text_view_size"
+        android:textColor="@color/textViewColor"
+        android:layout_below="@+id/visitorName"
+        android:padding="5dp"
+        />
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

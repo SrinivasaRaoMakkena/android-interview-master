@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">People Here</string>
+    <string name="dummyTimeInterval">00:00 AM - 00:00 PM</string>
+    <string name="dummyName">I don\'t know</string>
+</resources>
